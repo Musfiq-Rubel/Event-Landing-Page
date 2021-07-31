@@ -1,0 +1,268 @@
+h1,
+h2,
+h3 {
+    color: sandybrown;
+
+}
+
+h4,
+h5,
+h6 {
+    color: lightblue;
+
+}
+
+/* main container section */
+/* ================================================== */
+.main-container {
+
+    background: repeat linear-gradient(to right, #4A4E69, #22223B);
+    background: repeat linear-gradient(to right, #fff,pink);
+}
+
+
+
+
+.main-container .color:nth-child(1) {
+
+    background: #4A4E69;
+    background: #dc143c;
+    width: 30%;
+    height: 40%;
+    top: -70px !important;
+    left: -30px;
+    border-radius: 100% 0 0;
+    margin-top: 50px;
+}
+
+.main-container .color:nth-child(2) {
+    width: 30%;
+    height: 30%;
+    background: #4A4E69;
+    background: seagreen;
+    border-radius: 100% 0 0;
+    border-radius: 50%/100% 100% 0 0;
+    margin-top: 50px;
+}
+
+.main-container .color:nth-child(3) {
+    width: 30%;
+    height: 30%;
+    background: #22223B;
+    background: yellow;
+    border-radius: 50%;
+   margin-top: 450px;
+   right: 80px !important;
+}
+
+.main-container .color:nth-child(4) {
+
+    background: #22223B;
+    background: blueviolet;
+    /* border-radius: 50%; */
+    margin-top: 150px;
+    bottom: 250px;
+    transform: rotate(45deg);
+    /* animation: anim 2s linear infinite; */
+}
+
+@keyframes anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
+
+.main-container .color:nth-child(5) {
+    top: 100vh;
+    width: 30%;
+    height: 30%;
+    background: #4A4E69;
+    background: fuchsia;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+    margin-top: 50px;
+}
+
+.main-container .color:nth-child(6) {
+
+    background: #4A4E69;
+    background: goldenrod;
+    border-radius: 40%;
+    margin-top: 50px;
+}
+
+.main-container .color:nth-child(7) {
+
+    background: #22223B;
+    background: orangered;
+    border-radius: 40%;
+    margin-top: 50px;
+}
+
+.main-container .color:nth-child(8) {
+   top: 150vh;
+    background: #22223B;
+    background: purple;
+    border-radius: 40%;
+    
+}
+
+
+/* ================================================== */
+
+/* wrapper section */
+/* ================================================== */
+.wrapper {
+
+    background: rgba(255, 255, 255, 0.1);
+    background: rgba(250, 250, 250, 0.2);
+
+}
+
+
+/* ================================================== */
+
+/* content section */
+/* ================================================== */
+
+
+
+/* registration section */
+.registration-box {
+
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+
+
+.form h2 {
+
+    color: #fff;
+
+
+}
+
+.form h2::before {
+
+    background: #fff;
+}
+
+
+
+.form .inputbox input {
+
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputbox input::placeholder {
+    color: #fff;
+}
+
+.form .inputbox input[type="submit"] {
+    background: #fff;
+    color: #666;
+
+}
+
+/* ================================================== */
+
+
+
+
+
+/* ================================================== */
+
+/* speakers section */
+/* ================================================== */
+.speakers {
+
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+.first-speaker h5,
+.second-speaker h5,
+.third-speaker h5 {
+    color: sandybrown;
+}
+
+.first-speaker h5::after {
+
+    color: lightblue;
+}
+
+.second-speaker h5::after {
+
+    color: lightblue;
+}
+
+.third-speaker h5::after {
+
+    color: lightblue;
+}
+
+/* ================================================== */
+
+
+/* program section */
+/* ================================================== */
+
+
+
+
+.program-list h6 {
+    color: #fff;
+}
+
+/* ================================================== */
+
+/* partner section */
+
+/* ================================================== */
+
+
+
+
+/* social connect  */
+.social-connect h5:nth-child(2) {
+    color: sandybrown;
+}
+
+/* contact info  */
+
+
+.contact-info h6:first-child {
+    color: sandybrown;
+}
+
+.contact-info h6 {
+    color: #fff;
+}
+
+/* ================================================== */
+
+
+/* copyright section */
+/* ================================================== */
+
+.copyright-part {
+
+    color: sandybrown;
+
+    background: rgba(34, 34, 59, 0.4);
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+/* ================================================== */

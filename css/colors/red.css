@@ -1,0 +1,214 @@
+h1,
+h2,
+h3 {
+    color: sandybrown;
+    color: pink;
+   
+}
+
+h4,
+h5,
+h6 {
+    color: lightblue;
+    color: lightgreen;
+    
+}
+
+/* main container section */
+/* ================================================== */
+.main-container {
+   
+      background: repeat linear-gradient(to right, rebeccapurple, purple);
+      background: repeat linear-gradient(to right, firebrick, crimson);
+   }
+
+
+
+
+.main-container .color:nth-child(1) {
+   
+    background: rebeccapurple;
+    background: firebrick;
+}
+
+.main-container .color:nth-child(2) {
+   
+    background: rebeccapurple;
+    background: firebrick;
+}
+
+.main-container .color:nth-child(3) {
+   
+    background: purple;
+    background: crimson;
+    
+}
+
+.main-container .color:nth-child(4) {
+   
+    background: purple;
+    background: crimson;
+   
+}
+
+
+/* ================================================== */
+
+/* wrapper section */
+/* ================================================== */
+.wrapper {
+    
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+/* ================================================== */
+
+/* content section */
+/* ================================================== */
+
+
+
+/* registration section */
+.registration-box {
+   
+    background: rgba(255, 255, 255, 0.1);
+   
+}
+
+
+
+.form {
+    
+    background: repeat linear-gradient(90deg , transparent 50% , crimson 50%);
+}
+
+
+
+.form h2 {
+    
+    color: #fff;
+    
+
+}
+
+.form h2::before {
+
+    background: #fff;
+}
+
+
+
+.form .inputbox input {
+    
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputbox input::placeholder {
+    color: #fff;
+}
+
+.form .inputbox input[type="submit"] {
+    background: #fff;
+    color: #666;
+    
+}
+/* ================================================== */
+
+
+
+
+
+/* ================================================== */
+
+/* speakers section */
+/* ================================================== */
+.speakers {
+   
+    background: rgba(255, 255, 255, 0.1);
+   
+}
+
+
+
+.first-speaker h5,
+.second-speaker h5,
+.third-speaker h5 {
+    color: sandybrown;
+    color: silver;
+}
+
+.first-speaker h5::after {
+    
+    color: lightblue;
+    color:  lightgreen;
+}
+
+.second-speaker h5::after {
+   
+    color: lightblue;
+    color:  lightgreen;
+}
+
+.third-speaker h5::after {
+   
+    color: lightblue;
+    color:  lightgreen;
+}
+/* ================================================== */
+
+
+/* program section */
+/* ================================================== */
+
+
+
+
+.program-list h6 {
+    color: #fff;
+}
+/* ================================================== */
+
+/* partner section */
+
+/* ================================================== */
+
+
+
+
+/* social connect  */
+.social-connect h5:nth-child(2) {
+    color: sandybrown;
+    color: silver;
+}
+
+/* contact info  */
+
+
+.contact-info h6:first-child {
+    color: sandybrown;
+    color: silver;
+}
+
+.contact-info h6 {
+    color: #fff;
+}
+/* ================================================== */
+
+
+/* copyright section */
+/* ================================================== */
+
+.copyright-part {
+   
+    color: sandybrown;
+    color: silver;
+    
+    background: rgba(255,20,0, 0.2);
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+/* ================================================== */

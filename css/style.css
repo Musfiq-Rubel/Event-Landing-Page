@@ -1,0 +1,419 @@
+/* ================================================== */
+
+
+/* The Event
+/* created by techvai
+
+* body
+* h1,h2,h3
+* h4,h5,h6
+* main-container section
+* wrapper section
+* content section
+    *left text section
+    *registration section
+* slider section
+* speakers section
+* program section
+* partners section
+   * partners
+   *social connect
+   *contact info
+* copyright section
+
+*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+ }
+
+
+h1,
+h2,
+h3 {
+    color: sandybrown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4,
+h5,
+h6 {
+    color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* main container section */
+/* ================================================== */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: repeat linear-gradient(to right, rebeccapurple, purple); */
+   }
+
+
+.main-container .color {
+    position: absolute;
+    filter: blur(150px);
+}
+
+.main-container .color:nth-child(1) {
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    /* background: rebeccapurple; */
+}
+
+.main-container .color:nth-child(2) {
+    bottom: -150px;
+    left: 100px;
+    width: 600px;
+    height: 600px;
+    /* background: rebeccapurple; */
+}
+
+.main-container .color:nth-child(3) {
+    top: 50px;
+    right: 180px;
+    width: 300px;
+    height: 300px;
+    /* background: purple; */
+}
+
+.main-container .color:nth-child(4) {
+    bottom: 50px;
+    right: 180px;
+    width: 300px;
+    height: 300px;
+    /* background: purple; */
+}
+
+.box {
+    position: relative;
+}
+
+/* ================================================== */
+
+/* wrapper section */
+/* ================================================== */
+.wrapper {
+    margin-top: 50px;
+
+    position: relative;
+    width: 1000px;
+    width: 100%;
+    min-height: 400px;
+    min-height: 100vh;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo{
+    margin: 20px;
+}
+
+.wrapper header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+/* ================================================== */
+
+/* content section */
+/* ================================================== */
+
+/* left text section */
+.left-text {
+    padding: 10px 40px;
+}
+
+/* registration section */
+.registration-box {
+    position: relative;
+    width: 320px;
+    height: 350px;
+    border-radius: 34px;
+    border-radius: 34px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* background: repeat linear-gradient(90deg , blue 50% , #B54B8D 50%); */
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 2;
+}
+
+.regi-sec-holder {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#overlay-corner{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: yellow;
+    background: #fff;
+    background: plum;
+    background: salmon;
+    background: #B34D8D;
+    background: #F4A460;
+    border-radius: 100% 0 0 0;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+}
+#overlay-corner2{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: yellow;
+    background: #fff;
+    background: plum;
+    background: salmon;
+    background: #B34D8D;
+    background: #F4A460;
+    border-radius: 0 0 0 100%;
+    bottom: 0;
+    left: 0;
+    /* right: 0; */
+}
+
+
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 0 34px 34px 0;
+    /* background: repeat linear-gradient(90deg , transparent 50% , purple 50%); */
+}
+
+.form h2 {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+}
+
+.form h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #fff;
+}
+
+.form .inputbox {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.form .inputbox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputbox input::placeholder {
+    color: #fff;
+}
+
+.form .inputbox input[type="submit"] {
+    background: #fff;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* ================================================== */
+
+/* slider section */
+/* ================================================== */
+.slider-title-text,
+.conference-speakers-title {
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+.next-pre {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nav-arrows button {
+
+    outline: none;
+
+}
+/* ================================================== */
+
+/* speakers section */
+/* ================================================== */
+.speakers {
+    width: 320px;
+    min-height: 400px;
+    margin: 50px auto;
+    position: relative;
+    width: 320px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+   -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.first-speaker , .second-speaker, .third-speaker{
+    z-index: 10;
+}
+
+.speaker-img {
+    margin: 10px auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+}
+
+.first-speaker h5,
+.second-speaker h5,
+.third-speaker h5 {
+    color: sandybrown;
+}
+
+.first-speaker h5::after {
+    content: 'Creative Head, Ipsum web solutions';
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+    color: lightblue;
+}
+
+.second-speaker h5::after {
+    content: 'Interface Designer, Lorem studio';
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+    color: lightblue;
+}
+
+.third-speaker h5::after {
+    content: 'Web Developer, Lorem web agency';
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+    color: lightblue;
+}
+/* ================================================== */
+
+
+/* program section */
+/* ================================================== */
+
+.program-title {
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.program-list {
+    padding: 15px 20px;
+
+}
+
+.program-list h6 {
+    color: #fff;
+}
+/* ================================================== */
+
+/* partner section */
+
+/* ================================================== */
+
+.partners {
+    padding: 30px 15px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+/* partner  */
+.partner-img {
+    margin: 5px;
+}
+
+/* social connect  */
+.social-connect h5:nth-child(2) {
+    color: sandybrown;
+}
+
+/* contact info  */
+.contact-info {
+    margin: 15px 0px;
+}
+
+.contact-info h6:first-child {
+    color: sandybrown;
+}
+
+.contact-info h6 {
+    color: #fff;
+}
+/* ================================================== */
+
+
+/* copyright section */
+/* ================================================== */
+
+.copyright-part {
+    margin-top: 50px;
+    padding: 20px 0px;
+    text-align: center;
+    color: sandybrown;
+    background: rgba(150, 0, 255, 0.2);
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+/* ================================================== */
+
